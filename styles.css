@@ -531,4 +531,29 @@
       height: 250px;
     }
   }
-  
+  @media (max-width: 600px) {
+    body {
+      font-size: 0.95rem;
+    }
+
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+
+    .hero-content .lead {
+      font-size: 1rem;
+    }
+
+    .about-content {
+      padding: 1rem;
+    }
+
+    .contact-content {
+      padding: 1rem;
+    }
+
+    .btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+    }
+  }
